@@ -1,1 +1,41 @@
 // Specific CSS for your home-page
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content h1 {
+  font-weight: 900;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 170px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #FABC2A;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
