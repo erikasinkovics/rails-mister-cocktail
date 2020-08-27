@@ -4,38 +4,42 @@
   position: fixed;
   right: 0;
   bottom: 0;
-  width: 100vw;
+  height: 100vh;
 }
 
 /* Add some content at the bottom of the video/page */
 .content {
   position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  top: 35vh;
+  // background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  width: 100%;
+  width: 40%;
   padding: 20px;
+  margin-left: 50px;
 }
 
 .content h1 {
-  font-weight: 900;
+  font-weight: 800;
+  margin-top: 20px;
+  font-size: 45px;
 }
 
 /* Style the button used to pause/play the video */
 #myBtn {
-  width: 170px;
-  font-size: 16px;
+  width: 200px;
+  font-size: 18px;
   font-weight: 500;
-  padding: 10px;
+  padding: 12px;
   border: none;
   border-radius: 5px;
   background: #FABC2A;
   color: #fff;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 #myBtn:hover {
   background: #ddd;
-  color: black;
+  // color: black;
 }
 
